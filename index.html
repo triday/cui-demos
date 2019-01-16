@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="../node_modules/react/umd/react.development.js"></script>
-    <script src="../node_modules/react-dom/umd/react-dom.development.js"></script>
+    <title>Demos</title>
+    <script src="../../node_modules/react/umd/react.development.js"></script>
+    <script src="../../node_modules/react-dom/umd/react-dom.development.js"></script>
+    <style>
+        #commands {
+            border: 1px solid #bbb;
+            background: #eee;
+            height: 60px;
+        }
+        #commands a{
+            margin: 8px;
+        }
+
+        #container {
+            border: 1px solid #bbb;
+            position: absolute;
+            top: 80px;
+            left: 8px;
+            bottom: 8px;
+            right: 8px;
+            padding: 10px;
+        }
+    </style>
 </head>
+
 <body>
+    <div id="commands"></div>
     <div id="container"></div>
-    <script src="./index.js"></script>
+    <script src="../../dist/demo.js"></script>
 </body>
+
 </html>
